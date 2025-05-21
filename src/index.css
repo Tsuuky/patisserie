@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 1. Reset margin and full height */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+/* 2. Global background color */
+body {
+  background-color: #f7fafc;
+}
+
+/* 3. Remove any default centering on body (handled in Flex containers in React) */
+/* (Ensure there is no display: flex or place-items: center here) */
